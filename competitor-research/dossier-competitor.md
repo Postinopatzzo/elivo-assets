@@ -31,11 +31,13 @@ monitoraggio e piccole modifiche. E un elenco di costi, e un elenco di costi
 tira il prezzo verso il basso per definizione. Qood dimostra che la stessa spesa
 ricorrente regge a un multiplo se il nome del piano e il risultato che produce.
 
-**Il livello alto e raggiungibile senza essere in sessanta.** AQuest, a Verona,
-e la prima agenzia italiana su Awwwards con 23 premi, e ha oltre 60 persone. Ma
-Cybear ad Avellino dichiara premi internazionali con una struttura piccola. La
-qualita di esecuzione non e una funzione della dimensione del team. E la nostra
-tesi, e c'e chi l'ha gia dimostrata.
+**Il livello alto e raggiungibile con il nostro stesso stack.** AQuest, a Verona,
+e la prima agenzia italiana su Awwwards con 23 premi, ma ha oltre 60 persone e
+non e un paragone utile. My Web Lab si: e a Milano, costruisce in Next.js come
+noi, e il suo sito ha una Honorable Mention di Awwwards. Non e una dichiarazione
+loro, sta sul sito di Awwwards. La qualita di esecuzione non e una funzione della
+dimensione del team, ed e la nostra tesi. La differenza e che loro l'hanno gia
+dimostrata e noi no.
 
 ---
 
@@ -127,11 +129,11 @@ sono i 10 piu grandi: sono i 10 da cui c'e piu da imparare.
 | 2 | **Bliss Agency** | Roma e Milano | fascia alta | blueprint, policy, multilingua | mista |
 | 3 | **Kenji** | Treviso | locale | tutte, e il metro locale | dichiarata |
 | 4 | **Codebaker** | Bologna | fascia alta | backend, api, database | dichiarata |
-| 5 | **My Web Lab** | Milano | fascia alta | front end, performance dichiarata | autodichiarata |
+| 5 | **My Web Lab** | Milano | fascia alta | front end, performance dichiarata | verificata da terzi |
 | 6 | **Medialine Group** | Mira (VE) | locale | blueprint, local SEO | dichiarata |
 | 7 | **Vacuum Studio** | Milano | fascia alta | front end, peso, performance | dichiarata |
 | 8 | **Cose Agency** | Roma | fascia alta | blueprint, dati strutturati | dichiarata |
-| 9 | **Cybear** | Avellino | fascia alta | front end con team piccolo | autodichiarata |
+| 9 | **Cybear** | Avellino | fascia alta | front end con team piccolo | nomination, non vittorie |
 | 10 | **Qood** | Italia | abbonamento | termini, policy, funnel ricorrente | prezzi verificati |
 
 ### Perche questi
@@ -169,6 +171,59 @@ alto non richiede sessanta persone. Da verificare sul profilo Awwwards.
 abbonamenti da 97 a 247 euro al mese, quindi ha per forza termini e condizioni
 seri su rinnovo, recesso e proprieta del sito. Sono i documenti che a noi
 servono e che oggi non abbiamo scritti bene.
+
+### 4.1 Cosa e emerso approfondendo
+
+Approfondimento su fonti pubbliche, senza aprire i siti. Quattro cose cambiano
+il quadro.
+
+**Il contratto di Qood e piu duro del nostro, e proprio per questo funziona.**
+Durata minima 12 mesi. Il sito resta di proprieta del cliente e i diritti
+d'autore del designer. Alla scadenza il cliente puo restare o portarsi il sito
+altrove. Ma in caso di recesso anticipato, prima dei 12 mesi, il cliente perde
+la proprieta del dominio e del sito. Pagamenti ricorrenti con Stripe o carta.
+
+E un impianto che risponde per iscritto alle tre domande che ogni cliente in
+abbonamento fa prima o poi: per quanto sono legato, di chi e il sito, cosa
+succede se smetto. Noi a queste tre domande oggi non rispondiamo da nessuna
+parte. Il nostro "primo anno di hosting incluso" non dice cosa succede l'anno
+dopo, e la Gestione e Cura a 30 euro al mese non ha ne durata minima ne clausola
+di uscita.
+
+Attenzione: queste condizioni arrivano da una ricerca, non dalla lettura diretta
+del documento. Vanno verificate sul contratto originale prima di prenderle a
+modello. Resta un punto aperto del capitolo 8.
+
+**My Web Lab sale di livello.** Il loro sito ha una Honorable Mention di
+Awwwards, con galleria portfolio 3D in Three.js guidata dallo scroll. Non e piu
+una dichiarazione loro, e sul sito di Awwwards. E il benchmark piu rilevante
+della lista: stessa tecnologia che usiamo noi, Next.js, eseguita a un livello
+riconosciuto da terzi. Se dobbiamo guardarne uno solo, guardiamo questo.
+
+**Cybear ha nomination, non vittorie.** Va corretto quello che avevo scritto
+prima. Sono nomination Awwwards su singoli progetti, Monte Zovo nel 2020 e Torre
+Civette nel 2025, non premi vinti dall'agenzia. La distinzione conta se qualcuno
+di noi pensa di usare quel linguaggio.
+
+Piu interessante e la loro lista clienti: Carpene Malvolti, Monte Zovo, Armando
+al Pantheon. Carpene Malvolti e una casa spumantistica di Conegliano, provincia
+di Treviso. Un'agenzia di Avellino serve un marchio a mezz'ora da Castelfranco.
+La distanza non protegge il mercato locale, in nessuna delle due direzioni.
+
+**Medialine Group e avanti per anzianita e indietro per tecnologia.** Trent'anni
+di attivita, sede a Mira, team con grafici, copywriter, SEO e programmatori
+dichiarati su PHP, jQuery e MySQL. jQuery nel 2026 e una scelta di manutenzione,
+non di progetto. E il concorrente locale piu strutturato che abbiamo, e sul piano
+tecnico e il piu attaccabile. Da confermare con la scansione.
+
+**Kenji** non pubblica prezzi ma ha una pagina recensioni dedicata. Copre
+Treviso, Venezia e Padova e dichiara di lavorare con artigiani e piccole imprese:
+esattamente i nostri. Sul territorio e il confronto vero.
+
+**Codebaker** e piu una software house che una web agency: app su misura, IoT,
+Industry 4.0, Kubernetes, Docker, IAM, API REST e GraphQL. Non ci contende la
+Landing Express. Ci contende il braccio alto nel momento in cui un cliente chiede
+un'integrazione con il gestionale.
 
 ---
 
@@ -288,6 +343,15 @@ non paghi" resta da validare legalmente e finche non lo e non va comunicata. Il
 prezzo dell'anno 2 dell'hosting va fissato per iscritto alla conferma d'ordine,
 non lasciato implicito nel primo anno incluso.
 
+A questi se ne aggiunge un terzo, che arriva da Qood. Il nostro ricorrente deve
+rispondere per iscritto a tre domande: per quanto tempo il cliente e legato, di
+chi e il sito, cosa succede al sito e al dominio se smette di pagare. Qood
+risponde a tutte e tre. Noi a nessuna. Non serve copiare la loro durezza, il
+recesso anticipato che fa perdere dominio e sito e una clausola aggressiva che
+con la nostra clientela founder rischia di bruciare fiducia. Serve rispondere.
+Il silenzio su queste tre domande non protegge nessuno dei due, e al primo
+cliente che smette di pagare diventa una discussione senza documento.
+
 ---
 
 ## 7. Come eseguire la scansione
@@ -330,9 +394,12 @@ risponde 403, e verifica 31 comportamenti dello scanner. Devono passare tutti.
 
 - La classifica del capitolo 4 e un ordine ragionato. Diventa un risultato solo
   dopo la scansione.
-- I premi Awwwards di Cybear sono autodichiarati e vanno verificati sul profilo
-  Awwwards.
+- Le condizioni contrattuali di Qood riportate al capitolo 4.1 arrivano da
+  ricerca, non dalla lettura diretta. Vanno lette sul documento originale prima
+  di usarle come modello per i nostri.
 - Lo scanner non vede i cookie scritti da JavaScript. Se serve la verifica
   completa va aggiunto un passaggio con browser headless.
-- I termini e condizioni di Qood vanno letti per intero, non solo misurati come
-  presenti, prima di riscrivere i nostri.
+- Nessun competitor pubblica i prezzi del braccio alto. Per tarare la forchetta
+  800-2500 servono i preventivi veri, non i loro siti.
+- Chiuso: i riconoscimenti di Cybear sono nomination Awwwards su singoli
+  progetti, 2020 e 2025, non premi vinti dall'agenzia.

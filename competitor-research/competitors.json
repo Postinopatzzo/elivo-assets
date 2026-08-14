@@ -35,9 +35,9 @@
     "categoria": "fascia-alta",
     "selezionato": true,
     "sede": "Avellino",
-    "perche": "Agenzia piccola che dichiara premi Awwwards. Per dimensione e la piu vicina a noi: dimostra che il livello alto e raggiungibile senza 60 dipendenti.",
+    "perche": "Agenzia piccola con nomination Awwwards su singoli progetti (Monte Zovo 2020, Torre Civette 2025), non premi vinti. Serve Carpene Malvolti, casa spumantistica di Conegliano: da Avellino lavorano in provincia di Treviso, la distanza non protegge il mercato locale.",
     "guardare": "front end, rapporto qualita/dimensione del team",
-    "forzaEvidenza": "autodichiarata, da verificare sul profilo Awwwards"
+    "forzaEvidenza": "nomination dichiarate su progetti datati, non vittorie"
   },
   {
     "nome": "Kenji",
@@ -65,9 +65,9 @@
     "categoria": "fascia-alta",
     "selezionato": true,
     "sede": "Milano",
-    "perche": "Dichiara front end custom in Next.js con zero CLS. E il confronto diretto sul nostro stesso stack: se la loro esecuzione regge, il nostro argomento tecnico va alzato.",
+    "perche": "Next.js custom con zero CLS dichiarato, e una Honorable Mention Awwwards sul proprio sito con galleria 3D in Three.js. Stesso stack nostro, eseguito a un livello riconosciuto da terzi. Se ne guardiamo uno solo, e questo.",
     "guardare": "front end, backend, performance dichiarata vs misurata",
-    "forzaEvidenza": "autodichiarata, da misurare"
+    "forzaEvidenza": "verificata da terzi (profilo Awwwards)"
   },
   {
     "nome": "Codebaker",
