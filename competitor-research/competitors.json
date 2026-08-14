@@ -1,0 +1,360 @@
+[
+  {
+    "nome": "AQuest",
+    "url": "https://www.aquest.it",
+    "categoria": "fascia-alta",
+    "selezionato": true,
+    "sede": "Verona e Londra",
+    "perche": "L'agenzia italiana piu premiata: 23 riconoscimenti Awwwards, prima in Italia. E in Veneto, quindi e il tetto della nostra stessa regione.",
+    "guardare": "front end, animazioni, blueprint",
+    "forzaEvidenza": "verificata da terzi (VeronaSera, profilo Awwwards)"
+  },
+  {
+    "nome": "Bliss Agency",
+    "url": "https://blissagency.it",
+    "categoria": "fascia-alta",
+    "selezionato": true,
+    "sede": "Roma e Milano",
+    "perche": "Posizionamento premium e high ticket, clienti come Bulgari e Ferrari. Macchina editoriale bilingue con architettura it/en parallela.",
+    "guardare": "blueprint, policy, struttura multilingua",
+    "forzaEvidenza": "mista: premi dichiarati sul proprio sito, presenza confermata da directory terze"
+  },
+  {
+    "nome": "Vacuum Studio",
+    "url": "https://vacuumstudio.it",
+    "categoria": "fascia-alta",
+    "selezionato": true,
+    "sede": "Milano",
+    "perche": "Siti ed esperienze immersive con animazioni 3D dal 2007. Benchmark su quanto si puo spingere il front end restando usabili.",
+    "guardare": "front end, peso e performance",
+    "forzaEvidenza": "dichiarata dal sito, confermata da Sortlist"
+  },
+  {
+    "nome": "Cybear",
+    "url": "https://www.cybear.it",
+    "categoria": "fascia-alta",
+    "selezionato": true,
+    "sede": "Avellino",
+    "perche": "Agenzia piccola con nomination Awwwards su singoli progetti (Monte Zovo 2020, Torre Civette 2025), non premi vinti. Serve Carpene Malvolti, casa spumantistica di Conegliano: da Avellino lavorano in provincia di Treviso, la distanza non protegge il mercato locale.",
+    "guardare": "front end, rapporto qualita/dimensione del team",
+    "forzaEvidenza": "nomination dichiarate su progetti datati, non vittorie"
+  },
+  {
+    "nome": "Kenji",
+    "url": "https://www.kenji.it",
+    "categoria": "locale-veneto",
+    "selezionato": true,
+    "sede": "Treviso",
+    "perche": "Il competitor diretto piu forte sul nostro territorio. Applicazioni web, siti aziendali ed ecommerce su Treviso, Venezia e Padova: le nostre stesse province.",
+    "guardare": "tutte le dimensioni, e il metro di paragone locale",
+    "forzaEvidenza": "dichiarata dal sito"
+  },
+  {
+    "nome": "Medialine Group",
+    "url": "https://www.medialinegroup.com",
+    "categoria": "locale-veneto",
+    "selezionato": true,
+    "sede": "Mira (VE)",
+    "perche": "Trent'anni di attivita e architettura a pagine per provincia, il modello di local SEO che ci contende le ricerche su Treviso e Padova.",
+    "guardare": "blueprint, local SEO, dati strutturati",
+    "forzaEvidenza": "dichiarata dal sito"
+  },
+  {
+    "nome": "My Web Lab",
+    "url": "https://myweblab.it",
+    "categoria": "fascia-alta",
+    "selezionato": true,
+    "sede": "Milano",
+    "perche": "Next.js custom con zero CLS dichiarato, e una Honorable Mention Awwwards sul proprio sito con galleria 3D in Three.js. Stesso stack nostro, eseguito a un livello riconosciuto da terzi. Se ne guardiamo uno solo, e questo.",
+    "guardare": "front end, backend, performance dichiarata vs misurata",
+    "forzaEvidenza": "verificata da terzi (profilo Awwwards)"
+  },
+  {
+    "nome": "Codebaker",
+    "url": "https://www.codebaker.it",
+    "categoria": "fascia-alta",
+    "selezionato": true,
+    "sede": "Bologna",
+    "perche": "Headless con Next.js su CMS, ERP e API REST e GraphQL. E il livello di argomentazione tecnica verso cui puntare per il braccio alto.",
+    "guardare": "backend, api, database",
+    "forzaEvidenza": "dichiarata dal sito"
+  },
+  {
+    "nome": "Cose Agency",
+    "url": "https://www.coseagency.com",
+    "categoria": "fascia-alta",
+    "selezionato": true,
+    "sede": "Roma",
+    "perche": "Web design costruito attorno al posizionamento organico, con struttura multilingua. Utile per capire come si impagina un sito che deve rankare.",
+    "guardare": "blueprint, api semantica, dati strutturati",
+    "forzaEvidenza": "dichiarata dal sito, confermata da Sortlist"
+  },
+  {
+    "nome": "Qood",
+    "url": "https://www.qood.it",
+    "categoria": "modello-abbonamento",
+    "selezionato": true,
+    "sede": "Italia",
+    "perche": "Vende siti in abbonamento da 97 a 247 euro al mese. E la minaccia diretta al nostro ricorrente da 30 euro al mese, e avendo un abbonamento vero ha obblighi contrattuali seri da studiare.",
+    "guardare": "termini e condizioni, policy, funnel di vendita del ricorrente",
+    "forzaEvidenza": "prezzi verificati da ricerca"
+  },
+
+  {
+    "nome": "LumiaWeb",
+    "url": "https://www.lumiaweb.com",
+    "categoria": "locale-veneto",
+    "selezionato": false,
+    "sede": "opera su Castelfranco Veneto",
+    "perche": "Presidia le ricerche su Castelfranco Veneto, dichiara 22 esperti e oltre 15 anni.",
+    "guardare": "blueprint local SEO"
+  },
+  {
+    "nome": "Zoe Web Solutions",
+    "url": "https://www.zoewebsolutions.it",
+    "categoria": "locale-veneto",
+    "selezionato": false,
+    "sede": "opera su Castelfranco Veneto",
+    "perche": "Pagina dedicata a Castelfranco Veneto, ci contende le stesse query locali."
+  },
+  {
+    "nome": "Graphic Studio WS",
+    "url": "https://www.graphicstudio-ws.it",
+    "categoria": "locale-veneto",
+    "selezionato": false,
+    "sede": "Castelfranco Veneto",
+    "perche": "Presenza storica sull'area di Castelfranco."
+  },
+  {
+    "nome": "Cocco Web Agency",
+    "url": "https://www.barbaracocco-adv.it",
+    "categoria": "locale-veneto",
+    "selezionato": false,
+    "sede": "Castelfranco Veneto e provincia di Treviso",
+    "perche": "Competitor locale diretto su Castelfranco."
+  },
+  {
+    "nome": "Padova Web Agency",
+    "url": "https://www.padovawebagency.it",
+    "categoria": "locale-veneto",
+    "selezionato": false,
+    "sede": "Padova",
+    "perche": "Copre Castelfranco Veneto e Treviso con pagine dedicate."
+  },
+  {
+    "nome": "Venezia Siti Web",
+    "url": "https://www.veneziasitiweb.it",
+    "categoria": "locale-veneto",
+    "selezionato": false,
+    "sede": "Venezia, Padova, Treviso",
+    "perche": "Copertura sulle nostre tre province."
+  },
+  {
+    "nome": "Obliquo Design",
+    "url": "https://www.obliquodesign.com",
+    "categoria": "fascia-alta",
+    "selezionato": false,
+    "sede": "Italia",
+    "perche": "Produce contenuti di comparazione tra agenzie: presidia le query di chi sta scegliendo un fornitore."
+  },
+  {
+    "nome": "MaxMile headless",
+    "url": "https://headless.maxmile.it",
+    "categoria": "fascia-alta",
+    "selezionato": false,
+    "sede": "Italia",
+    "perche": "Next.js con WordPress headless, lo stesso compromesso che potremmo proporre al cliente che vuole scriversi il blog."
+  },
+  {
+    "nome": "Gavriel La Stella",
+    "url": "https://gavriellastella.com",
+    "categoria": "fascia-alta",
+    "selezionato": false,
+    "sede": "Milano",
+    "perche": "Architettura decoupled Next.js piu WordPress, venduta come servizio a se."
+  },
+  {
+    "nome": "Esc Agency",
+    "url": "https://www.escagency.it",
+    "categoria": "fascia-alta",
+    "selezionato": false,
+    "sede": "Italia",
+    "perche": "Web design B2B, pubblica classifiche di settore."
+  },
+  {
+    "nome": "FDL Studio",
+    "url": "https://fdlstudio.it",
+    "categoria": "modello-abbonamento",
+    "selezionato": false,
+    "sede": "Italia",
+    "perche": "Sito in abbonamento da 37 euro al mese: la fascia che erode il nostro ricorrente."
+  },
+  {
+    "nome": "Dreamers Agency",
+    "url": "https://dreamersagency.it",
+    "categoria": "modello-abbonamento",
+    "selezionato": false,
+    "sede": "Italia",
+    "perche": "24,90 euro al mese con manutenzione e due aggiornamenti l'anno. E il prezzo sotto il nostro."
+  },
+  {
+    "nome": "NetCommit Italia",
+    "url": "https://www.netcommitalia.it",
+    "categoria": "modello-abbonamento",
+    "selezionato": false,
+    "sede": "Foggia",
+    "perche": "Canone mensile tutto incluso, social e SEO compresi."
+  },
+  {
+    "nome": "BNZ Solutions",
+    "url": "https://www.bnzsolutions.it",
+    "categoria": "modello-abbonamento",
+    "selezionato": false,
+    "sede": "Italia",
+    "perche": "Vende il noleggio del sito, formula da capire sul piano contrattuale."
+  },
+  {
+    "nome": "ALOUD Marketing",
+    "url": "https://aloudmarketing.com",
+    "categoria": "modello-abbonamento",
+    "selezionato": false,
+    "sede": "Italia",
+    "perche": "Canone con aggiornamenti illimitati: promessa che noi non facciamo."
+  },
+  {
+    "nome": "GM Web Agency",
+    "url": "https://www.gmwebagency.it",
+    "categoria": "modello-abbonamento",
+    "selezionato": false,
+    "sede": "Italia",
+    "perche": "Canone mensile con consulente dedicato."
+  },
+  {
+    "nome": "Vestudio",
+    "url": "https://vestudio.it",
+    "categoria": "verticale-icp",
+    "selezionato": false,
+    "sede": "Italia",
+    "perche": "Verticale fisioterapisti e osteopati, uno dei nostri cinque verticali in test."
+  },
+  {
+    "nome": "SettimoLink",
+    "url": "https://portfolio.settimolink.it",
+    "categoria": "verticale-icp",
+    "selezionato": false,
+    "sede": "Italia",
+    "perche": "Copre osteopati e imprese edili con portfolio per verticale e per citta: due dei nostri cinque."
+  },
+  {
+    "nome": "Bellatrix Web",
+    "url": "https://bellatrixweb.com",
+    "categoria": "verticale-icp",
+    "selezionato": false,
+    "sede": "Italia",
+    "perche": "Verticale fisioterapisti e osteopati."
+  },
+  {
+    "nome": "Ondanomala",
+    "url": "https://www.ondanomala.it",
+    "categoria": "verticale-icp",
+    "selezionato": false,
+    "sede": "Italia",
+    "perche": "Siti per hotel orientati alle prenotazioni dirette: e esattamente l'angolo che vogliamo usare noi contro le commissioni Booking."
+  },
+  {
+    "nome": "Artwork Studios",
+    "url": "https://www.artworkstudios.it",
+    "categoria": "verticale-icp",
+    "selezionato": false,
+    "sede": "Italia",
+    "perche": "Hotel e alberghi, piu contenuti sui prezzi di mercato che presidiano le query di chi cerca quanto costa un sito."
+  },
+  {
+    "nome": "Mainstream Agency",
+    "url": "https://www.mainstreamagency.it",
+    "categoria": "verticale-icp",
+    "selezionato": false,
+    "sede": "Italia",
+    "perche": "B&B e case vacanza con focus sulle prenotazioni dirette."
+  },
+  {
+    "nome": "Digital Web Italia",
+    "url": "https://www.digitalwebitalia.it",
+    "categoria": "verticale-icp",
+    "selezionato": false,
+    "sede": "Italia",
+    "perche": "Hotel con sincronizzazione OTA e imprese edili: due verticali nostri."
+  },
+  {
+    "nome": "Gabriele Pantaleo",
+    "url": "https://www.gabrielepantaleo.it",
+    "categoria": "verticale-icp",
+    "selezionato": false,
+    "sede": "Italia",
+    "perche": "B&B ed edilizia, dichiara siti con SEO da 1900 euro e zero costi annuali: attacca frontalmente il nostro ricorrente."
+  },
+  {
+    "nome": "WebPro Italia",
+    "url": "https://webproitalia.it",
+    "categoria": "verticale-icp",
+    "selezionato": false,
+    "sede": "Italia",
+    "perche": "Ecosistema per personal trainer con area clienti e pannello trainer: e il nostro verticale palestre, con piu funzioni."
+  },
+  {
+    "nome": "Digital Connect",
+    "url": "https://digitaconnect.com",
+    "categoria": "verticale-icp",
+    "selezionato": false,
+    "sede": "Italia",
+    "perche": "Palestre e centri fitness, si posiziona su siti economici."
+  },
+  {
+    "nome": "SitoWP",
+    "url": "https://www.sitowp.it",
+    "categoria": "verticale-icp",
+    "selezionato": false,
+    "sede": "Italia",
+    "perche": "Hotel e B&B con sistema di prenotazione camere."
+  },
+  {
+    "nome": "SitiWeb-WP",
+    "url": "https://www.sitiweb-wp.com",
+    "categoria": "verticale-icp",
+    "selezionato": false,
+    "sede": "Italia",
+    "perche": "Verticale fisioterapisti e osteopati su WordPress."
+  },
+  {
+    "nome": "Ricci Francesca",
+    "url": "https://www.riccifrancesca.it",
+    "categoria": "verticale-icp",
+    "selezionato": false,
+    "sede": "Italia",
+    "perche": "Osteopati, fisioterapisti e studi medici. Freelance, il profilo contro cui ci confrontiamo sul prezzo."
+  },
+  {
+    "nome": "SFWEB",
+    "url": "https://www.sfweb.it",
+    "categoria": "verticale-icp",
+    "selezionato": false,
+    "sede": "Italia",
+    "perche": "Edilizia e ristrutturazioni."
+  },
+  {
+    "nome": "Dsdesign",
+    "url": "https://www.dsdesign.me",
+    "categoria": "verticale-icp",
+    "selezionato": false,
+    "sede": "Italia",
+    "perche": "Oltre 10 anni sul verticale edilizia e ristrutturazioni."
+  },
+  {
+    "nome": "Unidevs",
+    "url": "https://www.unidevs.it",
+    "categoria": "verticale-icp",
+    "selezionato": false,
+    "sede": "Italia",
+    "perche": "Siti responsive per imprese edili."
+  }
+]
