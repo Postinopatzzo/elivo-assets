@@ -1,0 +1,116 @@
+name: Scansione competitor
+
+# Lo scanner ha bisogno di rete libera. Girando su un runner GitHub la ottiene,
+# e i risultati tornano committati nel branch.
+#
+# Si riavvia da solo solo quando cambiano la lista o lo scanner: i risultati
+# finiscono in competitor-research/risultati/, che non e fra i path che fanno
+# scattare il workflow, cosi il commit dei risultati non innesca un altro giro.
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'competitor-research/competitors.json'
+      - 'competitor-research/elivo-competitor-scan.mjs'
+      - '.github/workflows/scansione-competitor.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  scansione:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Verifica lo scanner prima di usarlo
+        run: node competitor-research/test-scanner.mjs
+
+      - name: Scansiona
+        run: |
+          node competitor-research/elivo-competitor-scan.mjs \
+            --input competitor-research/competitors.json \
+            --out competitor-research/risultati \
+            --concurrency 4
+
+      - name: Riepilogo leggibile dal log
+        run: |
+          node -e '
+            const fs = require("fs");
+            const dir = "competitor-research/risultati";
+            const f = fs.readdirSync(dir).find(x => x.endsWith(".json"));
+            const r = JSON.parse(fs.readFileSync(dir + "/" + f, "utf8"));
+            const ok = r.filter(x => x.raggiungibile).sort((a,b) => b.punteggio - a.punteggio);
+            const ko = r.filter(x => !x.raggiungibile);
+            const dim = ["backend","frontend","database","api","cookies","policy","termini","blueprint"];
+
+            console.log("=== CLASSIFICA ===");
+            console.log(["#","tot",...dim.map(d=>d.slice(0,4)),"nome"].join("\t"));
+            ok.forEach((x,i) => {
+              console.log([i+1, x.punteggio, ...dim.map(d => x.dimensioni[d].punti), x.nome].join("\t"));
+            });
+
+            console.log("\n=== NON RAGGIUNGIBILI (" + ko.length + ") ===");
+            ko.forEach(x => console.log(x.nome + "\t" + x.url + "\t" + x.errore));
+
+            console.log("\n=== MEDIE PER DIMENSIONE ===");
+            dim.forEach(d => {
+              const m = Math.round(ok.reduce((a,x) => a + x.dimensioni[d].punti, 0) / (ok.length || 1));
+              console.log(d + "\t" + m);
+            });
+
+            console.log("\n=== CRITICITA ===");
+            ok.filter(x => x.criticita.length).forEach(x => {
+              console.log(x.nome + ":");
+              x.criticita.forEach(c => console.log("   " + c));
+            });
+
+            console.log("\n=== STACK E CONSENSO ===");
+            ok.forEach(x => {
+              console.log([
+                x.nome,
+                x.dimensioni.frontend.stack.join("|"),
+                x.dimensioni.backend.hosting.join("|"),
+                "cmp:" + x.dimensioni.cookies.cmp.join("|"),
+                "tracker:" + x.dimensioni.cookies.tracker.join("|"),
+                "cookiePreConsenso:" + (x.dimensioni.cookies.cookieNonTecnici.join("|") || "nessuno"),
+                "hdrSicurezza:" + x.dimensioni.backend.nHeaderSicurezza + "/6",
+                "ttfb:" + x.dimensioni.backend.ttfbMs,
+                "html:" + x.dimensioni.frontend.htmlKb + "KB",
+                "sitemap:" + x.dimensioni.blueprint.paginaInSitemap,
+                "privacy:" + (x.dimensioni.policy.privacyUrl ? "si" : "NO"),
+                "cookiePolicy:" + (x.dimensioni.policy.cookiePolicyUrl ? "si" : "NO"),
+                "termini:" + (x.dimensioni.termini.terminiUrl ? "si" : "NO"),
+                "piva:" + (x.dimensioni.termini.partitaIvaVisibile ? "si" : "NO")
+              ].join("\t"));
+            });
+          '
+
+      - name: Salva i risultati nel branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add competitor-research/risultati
+          if git diff --cached --quiet; then
+            echo "Nessun risultato nuovo da salvare."
+          else
+            git commit -m "Risultati scansione competitor [skip ci]"
+            git push
+          fi
+
+      - name: Allega i risultati alla run
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scansione-competitor
+          path: competitor-research/risultati/
+          if-no-files-found: warn
